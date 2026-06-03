@@ -117,5 +117,5 @@ if __name__ == "__main__":
         plot_path = "pre/results/maxcut_result.png"
         plot_results(results, save_path=plot_path)
         mlflow.log_artifact(plot_path)
-
+        
         print(f"\n[MLflow] Run logged. View with: mlflow ui")

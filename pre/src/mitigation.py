@@ -34,7 +34,6 @@ def mitigated_expectation(G: nx.Graph, p: int, gammas: list,
         counts = job.result().get_counts()
         expectations.append(compute_expectation(counts, G))
 
-    # Richardson extrapolation to zero noise
     coeffs = np.polyfit(scale_factors, expectations, deg=len(scale_factors)-1)
     mitigated = np.polyval(coeffs, 0)
     return float(mitigated)
