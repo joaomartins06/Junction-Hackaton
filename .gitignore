@@ -9,3 +9,4 @@ mlruns/
 *.err
 *.log
 .ipynb_checkpoints/
+.env
