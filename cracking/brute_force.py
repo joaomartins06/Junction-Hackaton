@@ -2,7 +2,7 @@ from qiskit import QuantumCircuit
 from qiskit.quantum_info import Statevector
 
 # 1) Load circuit from OpenQASM file
-qasm_path = "circuits/challenge-8_27.qasm"
+qasm_path = "circuits/circuit_1.qasm"
 qc = QuantumCircuit.from_qasm_file(qasm_path)
 
 # 2) Remove measurements (required for Statevector simulation)
