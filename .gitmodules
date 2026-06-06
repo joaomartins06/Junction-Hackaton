@@ -1,0 +1,3 @@
+[submodule "cracking/kremer/peaked-circuit-simulation"]
+	path = cracking/kremer/peaked-circuit-simulation
+	url = https://github.com/d-kremer/peaked-circuit-simulation.git
